@@ -52,7 +52,7 @@ public class WordCounter {
 			else
 				break;
 		}
-		retVal-=1;
+		retVal-=1; //把查不到那次return的-1刪掉
 		return retVal;
     }
 }
